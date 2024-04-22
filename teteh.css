@@ -1,0 +1,39 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: orange}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.player-info {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.player-info img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.player-info p {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.player-info strong {
+    font-weight: bold;
+}

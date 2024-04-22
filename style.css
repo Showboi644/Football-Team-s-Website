@@ -1,0 +1,404 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    background: black;
+    box-shadow: 0px 5px  rgba(0, 0 , 0, 0.1);
+
+}
+a {
+    text-decoration: none;
+}
+.logo img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.center-navbar ul li  {
+    display: inline-flex;
+    margin-right: 25px;
+}
+
+.center-navbar ul li a {
+    font-size: 20px;
+    color: #fff;
+}
+
+.right-navbar input[type ="text"] {
+    padding: 8px 0px 8px 30px;
+    text-align: left;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+}
+
+.hero {
+    padding: 20px 20px;
+}
+
+.hero-image {
+    width:100%;
+    border: 1px solid rgb(39, 38, 38);
+    border-radius: 20px;
+    height: 800px;
+    background-image: url(./images/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image h1 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+.hero-image p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+}
+
+.hero-btn {
+    text-align: center;
+    margin-top: -60px;
+}
+
+.hero-btn button{
+    padding: 10px 40px;
+    font-size: 28px;
+    background: red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    transition: opacity 2ms;
+}
+
+.hero-btn button:hover{
+    opacity: 0.4;
+}
+
+
+
+/* ----------------Gallery section ---------*/
+.story-section{
+    padding: 20px 20px;
+}
+.story-section h3{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.story-cards{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-img{
+    width: 250px;
+    height: 250px;
+    background: white;
+    text-align: center;
+    border: 2px solid #2909df;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.card-img img{
+    width: 100%;
+    height: 190px;
+}
+
+.card-img span {
+    color: #444;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 900;
+}
+
+
+
+
+
+/* trending news section  */
+.new-container{
+    padding: 30px 15px;
+    background: linear-gradient(to right, rgb(229, 114, 26), #f70317 );
+
+}
+
+.new-container h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+
+.grid-container{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-card {
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    box-shadow: 2px 10px 5px rgba(0, 0 , 0, 0.1);
+}
+
+.news-card-img img{
+    width: 100%;
+    height: 200px;
+}
+
+.news-card-desc span a{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+
+
+
+
+/* ------------footer styles------- */
+
+.footer{
+    padding: 40px 50px;
+    background: rgb(1, 1, 61);
+    margin-top: 20px;
+}
+.footer-sub{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-sub div h3{
+    color: white;
+    font-size: 20px;
+    margin-top:10px ;
+}
+
+
+.footer-sub div ul li{
+    list-style: none;
+    margin-bottom: 12px;
+}
+
+.footer-sub div ul li a {
+    color: #ccc;
+    font-size: 15px;
+}
+
+
+.footer-sub div h3.fc-text{
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.footer-sub div p {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+.footer-sub div input[type = "text"]{
+    padding: 8px 35px;
+    border: none;
+    font-size: 15px;
+    border-radius: 10px;
+}
+
+.footer-sub div button {
+    padding: 8px 18px;
+    border: none;
+    border-radius: 10px;
+    font-size: 15px;
+    background: rgb(54, 243, 54);
+    font-weight: bold;
+    transition: opacity 2ms;
+}
+
+.footer-sub div button:hover{
+    opacity: 0.4;
+}
+
+.copy-right {
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+/* ------------------------news page styles---------------- */
+
+.banner-section {
+    background: linear-gradient(to right, rgb(238, 83, 109), red, #444, violet);
+    padding: 0 20px 40px 20px;
+}
+.banner-card{
+    display: flex;
+}
+
+.banner-card div{
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+}
+
+.banner-section h3{
+    color: white;
+    text-align: center;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+
+.banner-section hr{
+    margin-top: 10px;
+    background: #ccc;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 2px 5px  rgba(0, 0 , 0, 0.1);
+    height: 8px;
+}
+
+.banner-news-cards{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 80px;
+}
+.banner-news-card{
+    display: flex;
+    width: 100%;
+    height: 250px;
+    background-color: white;
+    box-shadow: 2px 5px  rgba(0, 0 , 0, 0.1);
+    margin-top: 40px;
+}
+
+
+.b-new-card-img{
+    width: 450px;
+}
+
+.b-new-card-img img{
+    width: 100%;
+    height: 200px;
+}
+
+.b-new-card-desc{
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.b-new-card-desc h1{
+    font-size: 45px;
+    text-decoration: underline;
+}
+
+.b-new-card-desc p{
+    color: #222;
+    margin-top: 10px;
+}
+
+.b-new-card-desc ul li {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+.b-new-card-desc ul li span.dot{
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    margin-right: 800px;
+}
+
+.b-new-card-desc ul li span{
+    text-align: end;
+   
+}
+
+
+
+
+
+/* ---------------contact page styles-----------  */
+
+main {
+    background-color: white;
+    padding: 40px;
+    
+    
+}
+.contact-h{
+    text-align: center;
+}
+
+main h2{
+    font-size: 45px;
+    margin-top: 50px;
+}
+main p{
+    margin-left: 12px;
+    font-size: 18px;
+}
+
+
+main .form{
+    margin-left: 33%;
+    margin-top: 30px;
+}
+
+.form label {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.form input[type="text"]{
+    width: 80%;
+    padding: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.form div{
+    margin-top: 20px;
+}
+
+.form div button{
+    padding: 8px 20px;
+    font-size: 14px;
+    background-color:#222;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+
+}
+
+
+.form div button:hover{
+    opacity: 0.4;
+}
